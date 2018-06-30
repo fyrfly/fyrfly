@@ -1,7 +1,7 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   position: relative;
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 
   margin: 0 0 35px;
@@ -291,4 +291,22 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+// Custom stylesheet
+.product-features {
+    list-style-type: none;
+    padding-left: 0;
+
+    &--list-item {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+}
+.image-container {
+    margin-bottom: 24px;
+}
+.first-image {
+    max-width:100%;
+max-height:100%;
 }
