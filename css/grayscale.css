@@ -192,18 +192,12 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("https://i.imgur.com/ENXfvCR.jpg") no-repeat center center scroll;
+  background: url("https://i.imgur.com/lV34Aq5.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-@media (max-width: 600px) {
-  .download-section {
-    background: url("https://i.imgur.com/IYG2wvK.jpg") no-repeat bottom center scroll;
-  }
 }
 
 #map {
