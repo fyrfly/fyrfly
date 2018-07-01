@@ -124,7 +124,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("https://i.imgur.com/q3USG6w.jpg") no-repeat bottom center scroll;
+  background: url("https://i.imgur.com/nhQyjKN.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -147,7 +147,7 @@ a:focus, a:hover {
 
 @media (max-width: 600px) {
   .masthead {
-    background: url("https://i.imgur.com/ZCaW9bp.jpg") no-repeat bottom center scroll;
+    background: url("https://i.imgur.com/KlJuXrH.jpg") no-repeat bottom center scroll;
   }
 }
 
