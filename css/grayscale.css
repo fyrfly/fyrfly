@@ -298,6 +298,11 @@ img::-moz-selection {
   font-size: 14px;
 }
 
+.stockist--list-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
 .image-container {
   margin-bottom: 24px;
 }
