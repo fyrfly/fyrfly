@@ -77,7 +77,7 @@ a {
     border: 1px solid white;
   }
   .navbar-brand {
-    font-weight: 700;
+    font-weight: 350;
   }
   a {
     color: white;
@@ -309,7 +309,22 @@ img::-moz-selection {
 .image-container {
     margin-bottom: 24px;
 }
-.first-image {
+.product-photo {
     max-width:100%;
     max-height:100%;
+}
+.no-pad {
+    padding-bottom: 0;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+#fb {
+    margin-right: 10px;
+}
+
+#insta {
+    margin-left: 10px;
 }
