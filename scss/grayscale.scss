@@ -1,7 +1,7 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 body {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat','Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   position: relative;
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat','Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 
   margin: 0 0 35px;
@@ -148,6 +148,9 @@ a {
 
     vertical-align: middle;
     .brand-heading {
+      font-family: 'Helvetica Neue';
+      font-weight: 350;
+      letter-spacing: 3px;
       font-size: 50px;
     }
     .intro-text {
