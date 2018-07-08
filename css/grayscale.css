@@ -52,7 +52,7 @@ a:focus, a:hover {
 }
 
 #mainNav {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -219,7 +219,7 @@ a:focus, a:hover {
 }
 
 .btn {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -330,4 +330,8 @@ img::-moz-selection {
 
 #insta {
   margin-left: 10px;
+}
+
+#navbar-name {
+  font-family: "Helvetica Neue", Helvetica;
 }
