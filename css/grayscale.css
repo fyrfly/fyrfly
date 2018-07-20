@@ -124,7 +124,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("https://i.imgur.com/nhQyjKN.jpg") no-repeat bottom center scroll;
+  background: url("../images/masthead-desktop.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -150,7 +150,7 @@ a:focus, a:hover {
 
 @media (max-width: 600px) {
   .masthead {
-    background: url("https://i.imgur.com/SNmHrJB.jpg") no-repeat bottom center scroll;
+    background: url("../images/masthead-mobile.jpg") no-repeat bottom center scroll;
   }
 }
 
@@ -160,7 +160,7 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 80px;
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
@@ -195,7 +195,7 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("https://i.imgur.com/lV34Aq5.jpg") no-repeat center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/pedals.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -302,7 +302,7 @@ img::-moz-selection {
 }
 
 .stockist--list-item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 16px;
 }
 
@@ -334,4 +334,9 @@ img::-moz-selection {
 
 #navbar-name {
   font-family: "Helvetica Neue", Helvetica;
+}
+
+#download {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
