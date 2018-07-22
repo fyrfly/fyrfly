@@ -195,7 +195,7 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../images/pedals.jpg") no-repeat center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/pedals.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
