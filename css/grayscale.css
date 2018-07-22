@@ -195,7 +195,7 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../images/pedals.jpg") no-repeat center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../images/pedals.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -334,4 +334,37 @@ img::-moz-selection {
 
 #navbar-name {
   font-family: "Helvetica Neue", Helvetica;
+}
+
+.cta {
+  margin-bottom: 24px;
+}
+
+.btn-cta {
+  background: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.btn-cta--mast {
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-cta--mast:hover {
+  background: white;
+  color: black;
+  border: 1px solid white;
+}
+
+.btn-cta--find-us {
+  color: #42dca3;
+  border: 1px solid #42dca3;
+}
+
+.btn-cta--find-us:hover {
+  background: white;
+  color: black;
+  border: 1px solid white;
 }
